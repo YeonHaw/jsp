@@ -1,0 +1,12 @@
+<!DOCTYPE html> <!-- html 문서라는 뜻 -->
+<html>
+<head> <! -- 페이지에 대한 정보가 들어감(제목,아이콘,화면의 사이즈 정보 등, 검색힌트) -->
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>제목 태그 자동 개행</h1>
+<h3>제목 태그2</h3>
+<h6>제목 태그3</h6>
+</body>
+</html>

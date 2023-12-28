@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<video controls>
+	<source src="img/2023-11-13_14-27-38.mp4" type="video/mp4">
+	
+</video>
+<h3>코딩404님의 동영상</h3>
+<iframe src="<iframe width="560" height="315" src="https://www.youtube.com/embed/qngXahvw2ug?si=FAuduvI6CMjT48FC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
+</body>
+</html>

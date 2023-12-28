@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head> 
+<body>
+
+<h3>Emp 정보를 테이블에 그려봅시다</h3>
+
+<form>
+	사원번호: <input type="number" name="ID" size="15" maxlength="5"><br>
+	이름: <input type="text" name="name"><br>
+	성별:
+	남자<input type="radio"name="bl">
+	여자<input type="radio"name="bl">
+	나이: <input type="number" name="age"><br>
+</form>
+
+</body>
+</html>

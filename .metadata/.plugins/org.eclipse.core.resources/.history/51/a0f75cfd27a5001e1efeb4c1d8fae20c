@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+/*
+1.정수를 저장하는 HashSet을 생성합니다
+2.1~45까지 랜덤하게 생성되는 로또 번호를 set에 저장
+*/
+%>
+
+Set<Integer> lotto = new HashSet<>();
+ 
+Random random = new Random();
+ 
+for (int i = 0; i < 6; i++) {
+     
+     int randomNumber;
+               
+do {randomNumber = random.nextInt(45) + 1;
+
+} while (lotto.contains(randomNumber)); 
+
+lotto.add(randomNumber);
+

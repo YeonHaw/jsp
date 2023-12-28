@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<video controls>
+	<source src="img/2023-11-13_14-27-38.mp4" type="video/mp4">
+	
+</video>
+<h3>코딩404님의 동영상</h3>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <% 
+    	request.setCharacterEncoding("utf-8");
+    String id = request.getParameter("id");
+    String pw = request.getParameter("pw");
+    String birth = request.getParameter( "birth");
+    String age = request.getParameter("age");
+    String b1 = request.getParameter("b1");
+    
+    String[]  a = request.getParameterValues("a1");
+    %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%=id %>님 비밀번호는 <%=pw %>입니다
+	생년월일은 <%=birth %>
+	
+	<% for(String a : a1) { %>
+		<%=a %>
+	<% } %>
+</body>
+</html>

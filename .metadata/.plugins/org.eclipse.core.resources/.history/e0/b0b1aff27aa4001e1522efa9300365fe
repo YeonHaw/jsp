@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h3>테이블 태그 그리기</h3>
+	
+	<table style="border-collapse: collapse;">; style="text-align: center;">
+		<tr>
+			<th>아름</th>
+			<td>나이</td>
+			<th>결과</th>
+		</tr>
+		<tr>
+			<td>홍길동</td>			
+			<td >20세</td>
+			<td rowspan="3">비고</td>
+		</tr>
+		<tr>
+			<td>홍길동</td>
+		</tr>
+		<tr>
+			<td colspan="2"style="text-align: right;">이순신</td>
+		</tr>
+	</table>
+</body>
+</html>
